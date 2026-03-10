@@ -249,5 +249,12 @@ export const MODEL_SPECS: { [index: string]: Specs } = {
     backgroundLight: true,
     name: "Monitor Hanging Light",
     color: false
+  },
+  plate2: {
+    colorTemperature: { min: 1700, max: 6500 },
+    nightLight: false,
+    backgroundLight: false,
+    name: "Smart Light Panels",
+    color: true
   }
 };
